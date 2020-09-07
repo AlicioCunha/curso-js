@@ -51,7 +51,7 @@ ordenacaoArray.map(n => n * 2);
 
 
 // quebrando um string com joi separadar
-let arrayComSeparador = [1,2,3,4,5,5,6,7,8,9,];
+let arrayComSeparador = [1, 2, 3, 4, 5, 5, 6, 7, 8, 9,];
 arrayComSeparador.join('-');
 // resultado "1-2-3-4-5-5-6-7-8-9"
 
@@ -64,7 +64,7 @@ arrayComSeparador.join('-');
 // resultado "a-b-c"
 
 // com a funcao reverse é possivel inverter o array
-[1,2,3].reverse
+[1, 2, 3].reverse
 
 //resultado [3, 2, 1]
 
@@ -89,9 +89,9 @@ myArray.shift();
 
 //removendo um elemente pelo indice
 // primeiro parametro do () é o index depois a quantidade de elementos a ser removido
-let removendoElementos = [1,2,3,4,5,6,7,8,9];
+let removendoElementos = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 // removendo o elemento 4
-removendoElementos.splice(3,1);
+removendoElementos.splice(3, 1);
 // resultado [4]
 // removendoElementos
 // (8) [1, 2, 3, 5, 6, 7, 8, 9]
@@ -110,3 +110,11 @@ arrayComSeparador.slice(1, 4);
 //  irá pegar todos os elemente a partir 
 // do index 1 e vai pegar os proximos 3 index
 //resultado  [2, 3, 4]
+
+
+let arrayMulti3x3 = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+
+]
