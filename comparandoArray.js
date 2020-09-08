@@ -15,4 +15,4 @@ array2.forEach(function (element, index, array) {
         r5.push(element);
 });
 
-console.log(r5;)
+console.log(r5);
