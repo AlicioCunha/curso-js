@@ -40,7 +40,7 @@ myObj
 ficando sempre com o mesmo tanto de chave: valor
 
 se tentar apagar um propriedade tbm retorna false
-*/ 
+*/
 
 delete myObj.a;
 // resultado false
@@ -60,3 +60,26 @@ Object.freeze(myObj);
 // para verificar se um objeto está selado ou congelado tem duas funcoes
 Object.isFrozen(myObj);
 Object.isSealed(myObj);
+
+/* ************************************************
+    Metodos GET e SET
+   ************************************************ */
+
+let myObjGetSet = {
+    a: 2,
+    get b(){
+        return 5;
+    }
+}
+
+
+//     é possivel acessar o valor dessa propriedade, ira retornar o valor
+// mas nao é possivel fazer set desse valor
+myObjGetSet.b   
+
+// resultado 5
+
+
+
+/* ************************************************ */
+
