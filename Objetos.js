@@ -65,21 +65,26 @@ Object.isSealed(myObj);
     Metodos GET e SET
    ************************************************ */
 
+let _b = 5;
 let myObjGetSet = {
     a: 2,
-    get b(){
-        return 5;
+    get b() {
+        return _b;
+    },
+    set b(value){
+        this._b = value;
     }
 }
 
 
 //     é possivel acessar o valor dessa propriedade, ira retornar o valor
 // mas nao é possivel fazer set desse valor
-myObjGetSet.b   
+myObjGetSet.b
 
 // resultado 5
 
-
+// para utilizar o setter é necessario criar variaveis que possam 
+// receber o valor do setter
 
 /* ************************************************ */
 
